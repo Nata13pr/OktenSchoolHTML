@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square:hover{
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    background-color: magenta;
+}
