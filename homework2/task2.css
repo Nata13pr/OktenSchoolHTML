@@ -1,15 +1,22 @@
-.flex{
+.flex {
     display: flex;
-    justify-content: space-between;
+    height: 300px;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.square:hover{
+.square:hover {
     background-color: aquamarine;
     border-radius: 50%;
+
+    transition: 3s;
 }
-.square{
-    height: 200px;
-    width: 200px;
+
+.square {
+    height: 100px;
+    width: 100px;
+
     background-color: magenta;
+
+    transition: 3s;
 }
