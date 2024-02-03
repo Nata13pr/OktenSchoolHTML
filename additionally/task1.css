@@ -1,0 +1,39 @@
+body {
+    margin: 20px 450px 50px 450px;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 130px;
+    padding-top: 10px;
+
+
+    font-weight: bold;
+
+    border: solid 1px black;
+    border-radius: 20%;
+
+}
+
+.paragraph {
+    font-size: 20px;
+    font-weight: bold;
+}
