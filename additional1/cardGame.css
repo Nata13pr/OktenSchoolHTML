@@ -1,0 +1,26 @@
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.player{
+    font-size: 30px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+
+    font-size: 60px;
+
+    background-color: lightgray;
+}
+.redSuit{
+color: red;
+}
+.blackSuit{
+color:black;
+}
