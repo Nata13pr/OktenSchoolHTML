@@ -1,0 +1,23 @@
+
+body,section,h2{
+    margin: 0;
+}
+
+.pink{
+    height: 50vh;
+
+    text-align: center;
+
+    background-color: pink;
+
+}
+
+.black{
+    height: 50vh;
+
+    text-align: center;
+
+    color: white;
+    background-color: black;
+
+}

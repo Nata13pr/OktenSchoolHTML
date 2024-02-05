@@ -1,0 +1,36 @@
+html{
+    scroll-behavior: smooth;
+}
+h2, p,body {
+    margin: 0;
+
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#lightGreen {
+    background-color: lightgreen;
+}
+
+#darkGreen {
+    background-color: darkgreen;
+
+}
+
+#red {
+    background-color: red;
+
+}
+
+.arrow {
+    text-decoration: none;
+    font-size: 100px;
+    text-align: center;
+}
