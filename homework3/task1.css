@@ -1,9 +1,15 @@
-
-body,section,h2{
+body, section, h2 {
     margin: 0;
 }
 
-.pink{
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pink {
     height: 50vh;
 
     text-align: center;
@@ -12,7 +18,7 @@ body,section,h2{
 
 }
 
-.black{
+.black {
     height: 50vh;
 
     text-align: center;

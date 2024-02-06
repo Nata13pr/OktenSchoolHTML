@@ -8,6 +8,10 @@ header, .content1, .content2, .content3, .spam1, .spam2, footer {
     align-items: center
 }
 
+.content1, .content2, .content3, .spam1, .spam2 {
+    color: white;
+}
+
 header {
     height: 21vh;
 

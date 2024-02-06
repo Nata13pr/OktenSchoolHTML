@@ -1,29 +1,41 @@
-body{
+body {
     margin: 0;
 }
-header{
-    height: 20vh;
-    background: hotpink;
+
+header, .left, .content1, .right, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-main{
+
+header {
+    height: 20vh;
+    background: #927D7D;
+}
+
+main {
     display: flex;
 }
-article{
+
+.left {
     height: 60vh;
     width: 20vw;
-    background: #FF8577;
+    background: #817C7C;
 }
-section{
+
+.content1 {
     width: 60vw;
     height: 60vh;
-    background: #699BF7;
+    background: #A74848;;
 }
-aside{
+
+.right {
     height: 60vh;
     width: 20vw;
-    background: #C7B9FF;
+    background: #817C7C;;
 }
-footer{
+
+footer {
     height: 20vh;
-    background-color:olive;
+    background-color: #BDBDBD;
 }

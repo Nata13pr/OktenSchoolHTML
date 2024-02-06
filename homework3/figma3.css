@@ -1,38 +1,61 @@
-header{
+body {
+    margin: 0;
+}
+
+header, .content1, .content2, .news1, .news2, .news3, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
     height: 19vh;
 
-    background-color:#776C6C;
+    background-color: #9B6F6F;
 }
-main{
+
+header, footer {
+    color: white;
+}
+
+main {
     height: 60vh;
     display: flex;
 }
-.content{
+
+.news {
     width: 34vw;
 }
-section{
+
+section {
     height: 20vh;
 }
-.content1{
-    background-color: #D9D9D9;;
+
+.news1 {
+    background-color: #D9D9D9;
 }
-.content2{
-    background-color: #D9D9D9;;
+
+.news2 {
+    background-color: #AA9898;
 }
-.content3{
-    background-color: #C5BBBB;;
+
+.news3 {
+    background-color: #C5BBBB;
 }
-.spam{
+
+.content1 {
     width: 35vw;
 
-    background-color: #8A8484;;
+    background-color: #8A8484;
 }
-.info{
-    width: 31vh;
 
-    background-color: #C0B3B3;;
+.content2 {
+    width: 31vw;
+
+    background-color: #C0B3B3;
 }
-footer{
+
+footer {
     height: 21vh;
 
     background-color: #524B4B;

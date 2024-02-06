@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-header, .content1, .content2, .content3, .content4, .content5,footer {
+header, .content1, .content2, .content3, .content4, .content5, footer {
     display: flex;
     justify-content: center;
     align-items: center

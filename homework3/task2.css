@@ -1,7 +1,8 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-h2, p,body {
+
+h2, p, body {
     margin: 0;
 
     text-align: center;
