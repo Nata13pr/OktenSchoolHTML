@@ -1,20 +1,55 @@
-header{
+body{
+    margin: 0;
+}
+header,.content1,.content2,.news,.sponsor,footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: 21vh;
+
     background-color: #D9D9D9;
 }
-.news{
+
+main {
+    display: flex;
+    height: 58vh;
+}
+
+.news {
+    width: 18vw;
+
     background-color: #817C7C;;
 }
-.content1{
+
+.content {
+    width: 64vw;
+
+}
+
+.content1 {
+    height: 29vh;
+
     background-color: #ABA8A8;;
 }
-.content2{
+
+.content2 {
+    height: 29vh;
+
     background-color: #878484;
 }
-.sponsor{
+
+.sponsor {
+    width: 18vw;
+
     background-color: #B7AEAE;
 }
-.footer{
-    background-color: #BDBDBD;
 
-;
+footer {
+    height: 21vh;
+
+    background-color: #BDBDBD;;
 }
+

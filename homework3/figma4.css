@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+header, .content1, .content2, .content3, .content4, .content5,footer {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+header {
+    height: 21vh;
+
+    background-color: #D9D9D9;
+}
+
+main {
+    display: flex;
+    height: 58vh;
+}
+
+section {
+    width: 20vw;
+}
+
+.content1 {
+    background-color: #5E5050;;
+}
+
+.content2 {
+    background-color: #817C7C;
+}
+
+.content3 {
+    background-color: #696464;;
+}
+
+.content4 {
+    background-color: #4E4949;
+}
+
+.content5 {
+    background-color: #776C6C;
+}
+
+footer {
+    height: 21vh;
+
+    background-color: #BDBDBD;;
+}

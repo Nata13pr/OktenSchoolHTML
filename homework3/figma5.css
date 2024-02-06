@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+header{
+    height: 20vh;
+    background: hotpink;
+}
+main{
+    display: flex;
+}
+article{
+    height: 60vh;
+    width: 20vw;
+    background: #FF8577;
+}
+section{
+    width: 60vw;
+    height: 60vh;
+    background: #699BF7;
+}
+aside{
+    height: 60vh;
+    width: 20vw;
+    background: #C7B9FF;
+}
+footer{
+    height: 20vh;
+    background-color:olive;
+}
