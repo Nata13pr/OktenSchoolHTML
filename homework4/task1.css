@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h2, p {
+    margin: 0;
+}
+
+.top-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('images/backgroungForFirstPage.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.lorem-ipsum {
+    display: flex;
+    width: 70vw;
+    height: 40vh;
+
+    background-color: #FAF9F7;
+}
+
+.lorem-ipsum-img {
+    width: 50%;
+    height: 100%;
+}
+
+.lorem-ipsum-text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-section h2 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'KoHo', sans-serif;
+    font-size: 45px;
+}
+
+.textToTopSection {
+    padding-top: 44px;
+    padding-bottom: 44px;
+
+    font-family: 'KoHo', sans-serif;
+    font-size: 25px;
+}
+
+button {
+    width: 80%;
+    height: 80px;
+
+    font-family: 'KoHo', sans-serif;
+    font-size: 30px;
+
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*_________________________________________MIDDLE_SECTION_______________________________________________*/
+
+.middle-section {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+
+    background-image: url("images/backgroundPictureForSecondSlide.png");
+    background-size: cover;
+}
+
+iframe {
+    width: 62vw;
+    height: 52vh;
+
+}
+
+.middle-section p {
+    width: 62vw;
+
+    font-size: 35px;
+}
+
+/*_________________________________________Bottom_SECTION_______________________________________________*/
+.section-bottom {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("images/backgroundPictureForSecondSlide.png");
+    background-size: cover;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 49px;
+}
+
+.section-bottom section {
+    height: 80vh;
+    width: 29vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: rgba(83, 83, 83, 0.40);
+
+}
+
+.section-bottom img {
+    margin-bottom: 32px;
+    height: 21vh;
+    width: 26vw;
+}
+
+
+.section-bottom h2, h3, p {
+    font-family: 'KoHo', sans-serif;
+    font-size: 35px;
+}
+
+.section-bottom h2 {
+    margin-bottom: 24px;
+}
+
+.section-bottom h3 {
+    margin-top: 0;
+    margin-bottom: 62px;
+
+    text-align: center;
+}
+
+.section-bottom p {
+    margin-bottom: 25px;
+}
+
+.section-bottom button {
+    width: 80%;
+    height: 76px;
+
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+

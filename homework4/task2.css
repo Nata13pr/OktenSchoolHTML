@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.basic {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 1px solid lightgrey;
+}
+
+.basic p {
+    font-size: 25px;
+}
+
+.instagramImage {
+
+    width: 200px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form input {
+    width: 80%;
+    padding: 7px;
+    margin-bottom: 10px;
+
+    font-size: 20px;
+
+    background-color: lightgrey;
+}
+
+.facebookImage {
+    width: 50px;
+    height: 30px;
+    margin-bottom: -5px;
+
+    color: cornflowerblue;
+}
+
+.enterFacebookLink a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+
+    color: darkblue;
+}
+
+.forgetPasswordText {
+    font-size: 20px;
+    color: darkblue;
+}
+
+.enterFacebookLink {
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 0;
+    width: 85%;
+    height: 40px;
+
+    font-size: 20px;
+
+    color: white;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.additional {
+    height: 12%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+    text-align: center;
+
+    border: 1px solid lightgrey;
+
+}
+
+.additional a {
+    text-decoration: none;
+
+    color: #699BF7;
+
+}
+
