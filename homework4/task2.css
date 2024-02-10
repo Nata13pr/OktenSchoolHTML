@@ -42,14 +42,26 @@ form {
     align-items: center;
 }
 
-form input {
+
+input[type='text'] {
     width: 80%;
     padding: 7px;
     margin-bottom: 10px;
 
     font-size: 20px;
+    text-overflow: ellipsis;
 
     background-color: lightgrey;
+}
+
+input[type='text']::placeholder {
+    padding: 0;
+
+}
+
+input[type='text']:focus {
+    color: black;
+    background-color: white;
 }
 
 .facebookImage {
