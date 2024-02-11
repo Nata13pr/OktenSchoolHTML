@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+/*font-family: 'KoHo', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Rubik', sans-serif;*/
+/*--------------------------Header--------------------------*/
+header{
+    width: 81vw;
+    margin: 0 auto;
+}
+header>img{
+     margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+ul{
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+ul>li{
+    margin-right: 30px;
+    list-style: none;
+}
+ul>li>a{
+
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+
+    color: #99A2AA;
+}
+/*------------------Section-Subscribe---------------------*/
+.subscribe{
+    height: 440px;
+
+    background-color: #FEC524;
+}
+.hidden{
+    visibility: hidden;
+    /*position: absolute;*/
+
+
+    /*color: transparent;*/
+    /*overflow: hidden;*/
+
+}
