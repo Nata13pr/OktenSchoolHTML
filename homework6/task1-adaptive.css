@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+
+    header {
+        height: 10vh;
+        margin-bottom: 20px;
+
+        border-radius: 10px;
+    }
+
+    .flex {
+        width: 100vw;
+        display: block;
+        height: 90vh;
+    }
+
+    main {
+        height: calc(80vh - 40px);
+        width: 100vw;
+        margin-bottom: 20px;
+
+        border-radius: 10px;
+    }
+
+    footer {
+        height: 10vh;
+        width: 100vw;
+
+        border-radius: 10px;
+    }
+}
