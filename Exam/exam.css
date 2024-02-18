@@ -1,9 +1,10 @@
 body {
     margin: 0 auto;
+}
 
-    h1,h2, p {
-        margin: 0;
-    }
+h1, h2, h3, ul, img, p {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -129,7 +130,7 @@ header > button {
     width: 50%;
 }
 
-.heroDescription > button {
+.violetButton {
     width: 19vw;
     height: 58px;
 
@@ -145,17 +146,18 @@ header > button {
 }
 
 /*--------------------------------------------------Video about company-------------------------------------*/
-.companyVideo{
+.companyVideo {
     height: 100vh;
 
 }
 
-.descriptionCompanyVideo{
+.descriptionCompanyVideo {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 4vh;
 }
+
 .descriptionCompanyVideo > h2 {
     width: 50%;
     font-family: "Lato", sans-serif;
@@ -178,31 +180,142 @@ header > button {
 
     color: rgba(255, 255, 255, 0.70);
 }
-.companyVideo>img{
+
+.companyVideo > img {
     height: 62vh;
     width: 100%;
 }
-/*------------------------------------Services we provide------------------------------------------*/
-.servicesCompanyProvides{
-    height: 100vh;
-}
-.providedServices>li{
-    width: 26vw;
-    height: 20vh;
-}
-/*-------------------------------------Portofolio------------------------------*/
-.portofolio{
-    height: 100vh;
-}
-.portofolioProjects>li{
-    width:23vw;
-    height: 17vh;
-}
-/*---------------------------------------ContactInfo---------------------------------*/
-.contactInfo{
-    height: 100vh;
-}
-/*----------------------------------------Footer------------------------------------*/
-footer{
 
+/*------------------------------------Services we provide------------------------------------------*/
+.servicesCompanyProvides > h2 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    margin-bottom: 4vh;
+
+    color: #FFF;
+}
+
+.servicesCompanyProvides {
+    height: 100vh;
+}
+
+.providedServices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.providedServices > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 26vw;
+    /*height: 20vh;*/
+}
+
+.providedServices > li > img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+.providedServices > li > h3 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.75px;
+    margin-bottom: 24px;
+
+    color: #FFF;
+}
+
+.providedServices > li > p {
+    padding-left: 42px;
+    padding-right: 24px;
+
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+
+    color: rgba(255, 255, 255, 0.70);
+}
+
+/*-------------------------------------Portofolio------------------------------*/
+.portofolio {
+    height: 100vh;
+}
+
+.portofolio > h2 {
+    margin-bottom: 15vh;
+    font-family: "Lato", sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    color: #FFF;
+}
+
+.portofolioProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portofolioProjects > li {
+    width: 33.3%;
+    /*height: 17vh;*/
+}
+
+/*---------------------------------------ContactInfo---------------------------------*/
+.contactInfo {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactInfo > h2 {
+    width: 57vw;
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    color: #FFF;
+}
+
+/*----------------------------------------Footer------------------------------------*/
+footer {
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer>h3{
+    text-align: right;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 237.5% */
+    letter-spacing: -0.5px;
+
+    color: rgba(255, 255, 255, 0.70);
 }

@@ -1,0 +1,12 @@
+@media screen and (max-width: 375px) {
+
+    nav{
+        display: none;
+    }
+    header>button{
+        display: none;
+    }
+    .hero{
+        flex-direction: column;
+    }
+}
