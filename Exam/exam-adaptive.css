@@ -1,5 +1,12 @@
 @media screen and (max-width: 375px) {
-
+    header{
+        padding-top: 40px;
+    }
+    .logo > img {
+        margin-right: 4px;
+        width: 27px;
+        height: 27px;
+    }
     nav{
         display: none;
     }
@@ -7,6 +14,13 @@
         display: none;
     }
     .hero{
-        flex-direction: column;
+        flex-direction:column;
+    }
+    .heroDescription > h1 {
+        font-size: 42px;
+    }
+
+    .heroDescription > p {
+        font-size: 16px;
     }
 }
